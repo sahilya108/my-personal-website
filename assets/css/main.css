@@ -2549,6 +2549,49 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Certifications Section
+--------------------------------------------------------------*/
+.certifications .certificate-card {
+  background-color: var(--surface-color);
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 92%);
+  height: 100%;
+}
+
+.certifications .certificate-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+  border-color: var(--accent-color);
+}
+
+.certifications .certificate-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.certifications .certificate-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--heading-color);
+}
+
+.certifications .certificate-card span {
+  font-size: 14px;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+
+/*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
 .starter-section {
