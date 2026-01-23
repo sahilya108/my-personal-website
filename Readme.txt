@@ -30,7 +30,7 @@ This website acts as my online identity and portfolio.
 ## 🌍 Live Demo
 
 You can view the live website here:
-👉 ** https://sahilya108.github.io/my-personal-website/ **
+https://sahilya108.github.io/my-personal-website/
 
 ---
 
